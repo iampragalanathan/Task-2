@@ -1,5 +1,54 @@
 body{
    
      background-color: antiquewhite;
+     margin: 0;
 
+}
+
+#container{
+
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    padding: 10px;
+    /* width: 500px; */
+    
+}
+
+ul{
+
+    display: flex;
+    justify-content: space-between;
+   
+    border: 2px solid magenta;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+li{
+    margin-left: 10px;
+    
+}
+
+.head{
+
+     font-family: "Great Vibes", cursive;
+}
+.left{
+
+    padding: 5px;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
 }
